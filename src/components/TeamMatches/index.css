@@ -28,29 +28,73 @@
   justify-content: center;
   min-height: 100vh;
 }
-.responsive-container{
+.responsive-container {
   width: 90%;
   max-width: 500px;
   margin-top: 48px;
 }
-@media screen and (min-width: 768px){
-  .responsive-container{
+@media screen and (min-width: 768px) {
+  .responsive-container {
     margin-top: 96px;
     max-width: 1110px;
   }
 }
-.team-banner{
+.team-banner {
   width: 100%;
 }
-.recent-matches-list{
+.recent-matches-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding-left: 0;
   margin-top: 24px;
 }
-@media screen and (min-width:768px){
-  .recent-matches-list{
-    margin-top:32px;
+@media screen and (min-width: 768px) {
+  .recent-matches-list {
+    margin-top: 32px;
   }
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.team-banner {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+.pie-chart-container {
+  margin: 20px 0;
+}
+
+.pie-chart-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recent-matches-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-matches-container {
+  padding: 20px;
+  background-color: #f4f4f4;
 }
